@@ -6,7 +6,7 @@ from torch_geometric.utils import to_undirected
 from Library import MakePlanted
 from Library import MakeRandGraph
 
-class Phase_tr(InMemoryDataset):
+class Generating(InMemoryDataset):
 
     def __init__(self, root, N, painted, connectivity, n_graphs = 10000):
         self.coloured_dataset = painted
